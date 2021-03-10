@@ -7,9 +7,7 @@ namespace Core.Entities
     public class Entity
     {
         public long Id { get; set; }
-
-        public bool IsActive { get; set; }
-
+        
         public int CreatedBy { get; set; }
 
         public DateTime CreatedOn { get; set; }
