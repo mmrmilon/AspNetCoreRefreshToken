@@ -10,4 +10,11 @@ namespace Common.Enum
         Delete = 2,
         Archived = 3
     }
+
+    public enum Roles
+    {
+        MasterAdmin,
+        Admin,
+        User
+    }
 }
